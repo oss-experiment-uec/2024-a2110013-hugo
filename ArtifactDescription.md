@@ -19,8 +19,8 @@
 * Dockerイメージをpullしてrunする手順を具体的に示す．
 
 ```
-docker pull satoshigeyuki/oss-experiment-uec-2024-example
-docker run -it --rm --name example satoshigeyuki/oss-experiment-uec-2024-example
+docker pull kouki10glow/2024-a2110013-hugo
+docker run  --platform linux/amd64 -it --rm --name console kouki10glow/2024-a2110013-hugo
 ```
 
 * コンテナの中に入った後，最低限の動作チェックを行う方法を示す．
